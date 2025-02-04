@@ -1,6 +1,6 @@
 +++
 date = '2025-02-04T11:23:35-05:00'
-draft = true
+draft = false
 title = 'Python PLC Resources'
 description = 'Links to our meeting files and important documents'
 +++
