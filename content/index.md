@@ -5,17 +5,18 @@ title = 'Python PLC Resources'
 description = 'Links to our meeting files and important documents'
 +++
 
-
 # Tuesday, 2/11/25
 
 Welcome to our first meeting of the Spring 2025 semester! Here are some resources:
 
-## 📂 Files
+## 📂 Files and links
 
-- 📄 [Agenda - Next Meeting](https://drive.google.com/file/d/YOUR_FILE_ID/view)
-- 📜 [Meeting Notes](https://drive.google.com/file/d/YOUR_FILE_ID/view)
-- 📊 [Presentation Slides](https://drive.google.com/file/d/YOUR_FILE_ID/view)
-- 📑 [Reference Document](https://drive.google.com/file/d/YOUR_FILE_ID/view)
+- 💻 [Teams Meeting Link](https://teams.microsoft.com/l/meetup-join/19%3ameeting_NTI3MWI0NjEtZjhkOS00ZGFjLTliZTktMDRkOTBhYTBlMGQ0%40thread.v2/0?context=%7b%22Tid%22%3a%222fb36de5-296a-43c7-b5d2-ae73931f0aa3%22%2c%22Oid%22%3a%22312a802b-6ca1-463f-b125-e25e8d650db9%22%7d)
+- ✅ [Meeting Attendance Form](https://343b.edulnk.com/e/xv2a34/3mkWSd?__$u__)
+- 📄 [Agenda & Meeting Notes](https://docs.google.com/document/d/1R-5Na7BhTDbfOTph9d296_J-S26isDEGUHVKzUK8Jyo/edit?usp=sharing)
+- 📊 [Presentation Slides](https://docs.google.com/presentation/d/1W2VhBNCmBOSLn3X6KOod2LvSegzfYL9knYmA2f4Nlzc/edit?usp=sharing)
+- [Python I Course Info](https://center.ncsu.edu/nccte-cms/course_info.php?course_id=1781&choice=course&cred_id=-1&cluster_id=-1&sel_type=C&sel_id=1781&choice=course&cred_id=-1&cluster_id=-1)
+- [Python II Course Info](https://center.ncsu.edu/nccte-cms/course_info.php?course_id=1782&choice=course&cred_id=-1&cluster_id=-1&sel_type=C&sel_id=1782&choice=course&cred_id=-1&cluster_id=-1)
 
 ---
 Need help? Contact me at [williamh.lapinel@cms.k12.nc.us](mailto:williamh.lapinel@cms.k12.nc.us).
