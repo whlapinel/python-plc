@@ -1,4 +1,5 @@
 baseURL = 'https://whlapinel.github.io/'
 languageCode = 'en-us'
 title = 'CMS Python PLC'
+copyright = 'Charlotte-Mecklenburg Schools'
 theme = 'ananke'

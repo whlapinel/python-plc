@@ -9,13 +9,20 @@ paginate: true
 <!-- backgroundColor: black -->
 <!-- class: invert -->
 
-# Attendance
+# Agenda
 
-[Use this link](https://343b.edulnk.com/e/xv2a34/3mkWSd?__$u__)
+- Intros
+- Certification Exams: Lessons Learned from Fall 2024
+- Python 2 Curriculum: Lessons Learned from Fall 2024
 
-# PLC Resources Site
+# Housekeeping
 
-[Link](https://bit.ly/3WQkQFh)
+- Complete the attendance form
+- Note catcher (volunteer?)
+
+# PLC Resources
+
+[whlapinel.github.io/python-plc](https://whlapinel.github.io/python-plc)
 
 # District Facilitator for Spring 2025
 
@@ -34,10 +41,3 @@ paginate: true
 - What will we do if they've already learned it?
 
 ![Questions bg right 100% contain](./questions.png)
-
-# PLC Website
-
-# Lapinel's Course Curricula
-
-- Python 1 and 2
-- Not the "official" curricula; you don't have to use

@@ -1,0 +1,14 @@
+{{ define "main" }}
+
+
+<article class="pa3 pa4-ns nested-copy-line-height">
+
+    <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l measure-wide lh-copy">
+        {{- .Content -}}
+    </section>
+
+    <footer class="mt4">
+        <p><a href="{{ .Site.BaseURL }}">← Back to Home</a></p>
+    </footer>
+</article>
+{{ end }}
