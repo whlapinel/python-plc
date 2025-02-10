@@ -1,5 +1,7 @@
 baseURL = 'https://whlapinel.github.io/'
 languageCode = 'en-us'
-title = 'CMS Python PLC'
+title = 'Python PLC Stuff'
 copyright = 'Charlotte-Mecklenburg Schools'
 theme = 'ananke'
+[params]
+  custom_css = ["css/custom.css", "css/github-markdown-dark.css"]

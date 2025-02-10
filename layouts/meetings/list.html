@@ -12,6 +12,8 @@
                     <a href="{{ .RelPermalink }}" class="f3 fw7 link near-black hover-dark-blue db">
                         {{ .Title }}
                     </a>
+                    <div>{{ .Content }}</div>
+
                 </li>
                 {{ end }}
             </ul>
@@ -33,11 +35,6 @@
             </ul>
         </section>
         {{ end }}
-
-        <!-- Pagination -->
-        <div class="mt5">
-            {{ template "_internal/pagination.html" . }}
-        </div>
 
     </article>
 </div>
