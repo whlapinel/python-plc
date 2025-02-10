@@ -1,0 +1,44 @@
+{{ define "main" }}
+<div class="flex justify-center">
+    <article class="w-80 mw7 pa5 nested-copy-line-height bg-light-gray br3 shadow-4">
+
+        <!-- Subsections (if any) -->
+        {{ if .Sections }}
+        <section>
+            {{/* <h2 class="f2 fw6 mid-gray bb pb3">Subsections</h2> */}}
+            <ul class="list pl0">
+                {{ range .Sections }}
+                <li class="pv4">
+                    <a href="{{ .RelPermalink }}" class="f3 fw7 link near-black hover-dark-blue db">
+                        {{ .Title }}
+                    </a>
+                </li>
+                {{ end }}
+            </ul>
+        </section>
+        {{ end }}
+
+        <!-- Regular Pages (if any) -->
+        {{ if .RegularPages }}
+        <section>
+            {{/* <h2 class="f2 fw6 mid-gray bb pb3">Pages</h2> */}}
+            <ul class="list pl0">
+                {{ range .RegularPages }}
+                <li class="pv4 flex justify-center">
+                    <a href="{{ .RelPermalink }}" class="f3 fw7 link near-black hover-dark-blue db">
+                        {{ .Title }}
+                    </a>
+                </li>
+                {{ end }}
+            </ul>
+        </section>
+        {{ end }}
+
+        <!-- Pagination -->
+        <div class="mt5">
+            {{ template "_internal/pagination.html" . }}
+        </div>
+
+    </article>
+</div>
+{{ end }}

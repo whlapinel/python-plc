@@ -33,6 +33,13 @@ paginate: true
 
 ![Will Lapinel bg right 50%](./profile.jpg)
 
+# Meeting Schedule for Semester
+
+- Tuesday, February 11th at 2:30pm
+- Tuesday, March 11th at 2:30pm
+- Tuesday, April 8th at 2:30pm
+- Tuesday, May 13th at 2:30pm
+
 # Guiding Questions
 
 - What do we want students to know?
