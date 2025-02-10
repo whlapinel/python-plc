@@ -22,28 +22,28 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
-	for i, file := range dirEntries {
-		if strings.Split(file.Name(), ".")[1] == "md" {
-			continue
-		} else {
-			dirEntries = append(dirEntries[:i], dirEntries[i+1:]...)
+
+	// Filter out non-Markdown files
+	var mdFiles []os.DirEntry
+	for _, entry := range dirEntries {
+		if filepath.Ext(entry.Name()) == ".md" {
+			mdFiles = append(mdFiles, entry)
 		}
 	}
-	for _, entry := range dirEntries {
+
+	for _, entry := range mdFiles {
 		if entry.IsDir() {
 			continue
 		}
-		file, err := os.Open(entry.Name())
+
+		inputPath := filepath.Join(docsDirName, entry.Name())
+
+		// Read entire file at once
+		contents, err := os.ReadFile(inputPath)
 		if err != nil {
-			log.Fatal(err)
+			log.Fatalf("Failed to read file %s: %v", inputPath, err)
 		}
-		contents := make([]byte, 1<<20)
-		size, err := file.Read(contents)
-		log.Println("bytes read: ", size)
-		if err != nil {
-			log.Fatal(err)
-		}
-		contents = contents[:size]
+
 		md := goldmark.New(
 			goldmark.WithExtensions(extension.GFM),
 			goldmark.WithParserOptions(
@@ -54,17 +54,20 @@ func main() {
 				html.WithXHTML(),
 			),
 		)
+
 		var buf bytes.Buffer
 		if err := md.Convert(contents, &buf); err != nil {
-			panic(err)
+			log.Fatalf("Failed to convert Markdown: %v", err)
 		}
-		outFilePath := filepath.Join(outDirName, file.Name())
-		output, err := os.Create(outFilePath)
+
+		outputPath := filepath.Join(outDirName, strings.TrimSuffix(entry.Name(), ".md")+".html")
+		output, err := os.Create(outputPath)
 		if err != nil {
-			log.Println(err)
+			log.Fatalf("Failed to create output file %s: %v", outputPath, err)
 		}
-		log.Println("bytes written:", size)
+		defer output.Close()
+
+		log.Println("Writing:", outputPath)
 		Layout(buf.String()).Render(context.Background(), output)
 	}
-
 }

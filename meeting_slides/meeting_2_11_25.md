@@ -9,7 +9,7 @@ paginate: true
 <!-- backgroundColor: black -->
 <!-- class: invert -->
 
-<!-- header: Link to these slides: [whlapinel/github.io/python-plc/meeting_2_11_25.html](whlapinel/github.io/python-plc/meeting_2_11_25.html)  -->
+<!-- header: Link to these slides: [whlapinel/github.io/python-plc/slides/meeting_2_11_25.html](/python-plc/slides/meeting_2_11_25.html)  -->
 
 # Agenda
 
@@ -34,7 +34,7 @@ paginate: true
 - Previously taught Science at South Meck
 - New to CTE and Python
 
-![Will Lapinel bg right 50%](./profile.jpg)
+![Will Lapinel bg right 50%](../images/profile.jpg)
 
 # Introductions Continued
 
@@ -64,4 +64,4 @@ paginate: true
 - What will we do if they haven't learned it?
 - What will we do if they've already learned it?
 
-![Questions bg right 100% contain](./questions.png)
+![Questions bg right 100% contain](../images/questions.png)

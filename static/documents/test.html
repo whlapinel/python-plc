@@ -1,0 +1,63 @@
+<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Testing Goldmark</title><link rel="stylesheet" href="/python-plc/css/github-markdown-dark.css"></head><body class="markdown-body"><h1 id="-while-loop-practice---hints">🔄 While Loop Practice - Hints</h1>
+<h1 id="1-print-odd-numbers">1️⃣ Print Odd Numbers</h1>
+<p>💡 <strong>Hint:</strong> Use the modulo operator <code>%</code> to check if a number is odd.</p>
+<pre><code class="language-python">if num % 2 != 0:
+    # It's odd
+</code></pre>
+<h1 id="2-repeat-until-uppercase">2️⃣ Repeat Until Uppercase</h1>
+<p>💡 <strong>Hint:</strong> The <code>.isupper()</code> string method checks if a string is uppercase.</p>
+<pre><code class="language-python">word = input(&quot;Enter a word: &quot;)
+while not word.isupper():
+    word = input(&quot;Try again: &quot;)
+</code></pre>
+<h1 id="3-multiplication-table">3️⃣ Multiplication Table</h1>
+<p>💡 <strong>Hint:</strong> Use a counter variable and update it inside the loop.</p>
+<pre><code class="language-python">num = int(input(&quot;Enter a number: &quot;))
+i = 1
+while i &lt;= 10:
+    print(num * i)
+    i += 1
+</code></pre>
+<h1 id="4-factorial-calculation">4️⃣ Factorial Calculation</h1>
+<p>💡 <strong>Hint:</strong> Use a loop with <code>*=</code>, starting from <code>1</code>.</p>
+<pre><code class="language-python">factorial = 1
+while num &gt; 1:
+    factorial *= num
+    num -= 1
+</code></pre>
+<h1 id="5-sum-of-digits">5️⃣ Sum of Digits</h1>
+<p>💡 <strong>Hint:</strong> Use <code>num % 10</code> to get the last digit and <code>num // 10</code> to remove it.</p>
+<pre><code class="language-python">sum_digits = 0
+while num &gt; 0:
+    sum_digits += num % 10
+    num //= 10
+</code></pre>
+<h1 id="6-reverse-a-number">6️⃣ Reverse a Number</h1>
+<p>💡 <strong>Hint:</strong> Multiply the reversed number by 10 and add the last digit.</p>
+<pre><code class="language-python">reversed_num = 0
+while num &gt; 0:
+    reversed_num = reversed_num * 10 + num % 10
+    num //= 10
+</code></pre>
+<h1 id="7-repeat-until-palindrome">7️⃣ Repeat Until Palindrome</h1>
+<p>💡 <strong>Hint:</strong> Use slicing <code>[::-1]</code> to check if a word is a palindrome.</p>
+<pre><code class="language-python">if word == word[::-1]:
+    print(&quot;It's a palindrome!&quot;)
+</code></pre>
+<h1 id="8-divide-until-1">8️⃣ Divide Until 1</h1>
+<p>💡 <strong>Hint:</strong> Use integer division <code>//</code> to repeatedly divide by 2.</p>
+<pre><code class="language-python">while num &gt; 1:
+    num //= 2
+</code></pre>
+<h1 id="9-count-letter-frequency">9️⃣ Count Letter Frequency</h1>
+<p>💡 <strong>Hint:</strong> The <code>.count()</code> method can count occurrences of a letter.</p>
+<pre><code class="language-python">count = text.count('e')
+</code></pre>
+<h1 id="-number-guesser-with-hints">🔟 Number Guesser with Hints</h1>
+<p>💡 <strong>Hint:</strong> Use conditionals to check if the guess is too high or too low.</p>
+<pre><code class="language-python">if guess &gt; target:
+    print(&quot;Too high!&quot;)
+elif guess &lt; target:
+    print(&quot;Too low!&quot;)
+</code></pre>
+</body></html>
