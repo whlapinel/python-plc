@@ -9,7 +9,7 @@ paginate: true
 <!-- backgroundColor: black -->
 <!-- class: invert -->
 
-<!-- header: Link to these slides: [whlapinel/github.io/python-plc/slides/meeting_2_11_25.html](/python-plc/slides/meeting_2_11_25.html)  -->
+<!-- header: Link to these slides: [whlapinel/github.io/python-plc/slides/meeting_2_11_25.html](/python-plc/slides/meeting_2_11_25.html) / [Back to site](/python-plc) -->
 
 # Agenda
 

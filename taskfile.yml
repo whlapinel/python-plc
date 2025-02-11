@@ -1,0 +1,11 @@
+version: "3"
+
+tasks:
+  slides:
+    cmds:
+      - marp ./meeting_slides
+    silent: true
+
+  docs:
+    cmds:
+      - go run ./documents

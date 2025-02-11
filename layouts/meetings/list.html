@@ -12,8 +12,6 @@
                     <a href="{{ .RelPermalink }}" class="f3 fw7 link near-black hover-dark-blue db">
                         {{ .Title }}
                     </a>
-                    <div>{{ .Content }}</div>
-
                 </li>
                 {{ end }}
             </ul>
@@ -23,7 +21,7 @@
         <!-- Regular Pages (if any) -->
         {{ if .RegularPages }}
         <section>
-            {{/* <h2 class="f2 fw6 mid-gray bb pb3">Pages</h2> */}}
+            <h2 class="f2 fw6 mid-gray bb pb3">Meeting pages</h2>
             <ul class="list pl0">
                 {{ range .RegularPages }}
                 <li class="pv4 flex justify-center">
@@ -35,7 +33,6 @@
             </ul>
         </section>
         {{ end }}
-
     </article>
 </div>
 {{ end }}

@@ -15,7 +15,7 @@ import (
 )
 
 const docsDirName = "documents"
-const outDirName = "static"
+const outDirName = "static/documents"
 
 func main() {
 	dirEntries, err := os.ReadDir(docsDirName)
