@@ -21,7 +21,7 @@ paginate: true
 # Housekeeping
 
 - Complete the attendance [form](https://343b.edulnk.com/e/xv2a34/3mkWSd?__$u__)
-- Note catcher (volunteer?) [Agenda/Notes](https://docs.google.com/document/d/18UQnNfvhjytM9jO4DvP0kYhRWUrYrOxmm3XsgB-n8Yk/edit?usp=sharing)
+- Note catcher (volunteer?) [Agenda/Notes](https://docs.google.com/document/d/1GRPBG9R1NWnONKzV1Tul5I6adkOuzJh2utr4CI9r_Wc/edit?usp=sharing)
 
 # Around the room
 
