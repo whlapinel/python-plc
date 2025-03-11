@@ -39,7 +39,7 @@ paginate: true
 
 # Other Announcements
 
-- None
+- Certiport Exams are **also** required for Python I students (in addition to PCEP)
 
 # Guiding Questions
 
