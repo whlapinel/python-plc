@@ -9,7 +9,7 @@ paginate: true
 <!-- backgroundColor: black -->
 <!-- class: invert -->
 
-<!-- header: Home: [whlapinel/github.io/python-plc/](/python-plc/) -->
+<!-- header: Home: [whlapinel.github.io/python-plc/](/python-plc/) -->
 
 # CMS Python PLC Meeting: Tues Mar 11, 2025
 
