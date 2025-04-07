@@ -40,6 +40,7 @@ paginate: true
 # Other Announcements
 
 - New location for site: <https://wlapinel.course-manager.app>
+  - Please note that due to CMS internal DNS server not yet having the domain records, you'll have to switch to guest network in order to access
 - Certiport Exams are **also** required for Python I students (in addition to PCEP)
 
 # Guiding Questions
